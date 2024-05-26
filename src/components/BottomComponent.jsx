@@ -22,7 +22,13 @@ export default function BottomComponent() {
 
             <form action="" className="form">
                 <h3 className="email">Email address</h3>
-                <input type="email" name="email" id="email" aria-aria-labelledby="Email address" />
+                <input 
+                    type="email" 
+                    name="email" 
+                    id="email" 
+                    aria-aria-labelledby="Email address" 
+                    placeholder="email@company.com"
+                />
                 <button className="btn">Subscribe to monthly newsletter</button>
             </form>
         </div>

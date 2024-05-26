@@ -4,7 +4,7 @@ import BottomComponent from './components/BottomComponent';
 
 function App() {
   return (
-    <div className='App'>
+    <div className="App">
       <TopComponent />
       <BottomComponent />
     </div>

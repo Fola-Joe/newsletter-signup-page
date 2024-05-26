@@ -47,7 +47,7 @@ table {
 
 html {box-sizing: border-box;}
 body {
-	min-height: 100vh;
+	min-height: 50vh;
 	font-family: 'Roboto', sans-serif;
 	display: flex;
 	justify-content: center;

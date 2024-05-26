@@ -1,14 +1,14 @@
 :root {
-    --tomato: var(hsl(4, 100%, 67%));
-    --dark-slate-grey: var(hsl(234, 29%, 20%));
-    --charcoal-grey: var(hsl(235, 18%, 26%));
-    --grey: var(hsl(231, 7%, 60%));
-    --white: var(hsl(0, 0%, 100%));
+    --tomato: hsl(4, 100%, 67%);
+    --dark-slate-grey: hsl(234, 29%, 20%);
+    --charcoal-grey: hsl(235, 18%, 26%);
+    --grey: hsl(231, 7%, 60%);
+    --white: hsl(0, 0%, 100%);
 }
 
 .BottomComponent {
     padding-left: 1.5rem;
-    margin-top: 2rem;
+    margin: 2rem 0;
     width: 100%;
     max-width: 300px;
 }
@@ -17,7 +17,6 @@
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 1.5rem;
-
 }
 .line-1 {
     margin-bottom: 1.5rem;
@@ -43,10 +42,24 @@
 }
 #email {
     width: 100%;
-    padding: 0.5rem;
+    padding: 1rem;
     border-radius: 0.7rem;
     border: 1px solid;
     border-color: var(--grey);
     outline: none;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+}
+.btn {
+    color: var(--white);
+    background-color: var(--dark-slate-grey);
+    width: 111%;
+    padding: 1.1rem;
+    border: none;
+    font-weight: 700;
+    border-radius: 0.7rem;
+    transition: all 0.5s;
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: linear-gradient(var(--charcoal-grey), var(--tomato));
 }
